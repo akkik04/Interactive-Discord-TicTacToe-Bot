@@ -167,4 +167,5 @@ async def place_error(ctx, error):
     elif isinstance(error, commands.BadArgument):
         await ctx.send("Please make sure to enter an integer.")
 
-client.run("TOKEN")
+# insert your bot's token here.
+ client.run("TOKEN")
